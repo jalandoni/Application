@@ -15,9 +15,10 @@
   <title>Registration Form</title>
 </head>
 <style>
-	
-	
-
+	.registerform{
+		margin-left: 15%;
+		margin-right:15%;
+	}
 
 </style>
 
@@ -40,9 +41,46 @@
   <form>
   	   <div class="row classList">
         <div class="col-md-2"></div>
+            <div class="row classList">
+        <div class="col-md-2"></div>
         <div class="col-md-8 ">
             <br><br>
-            <div class=" card">
+            <div class="card">
+                <br>
+                <center>
+                    <br>
+                    <br>
+                    <div class="container">
+                        <table id="table" class="table table-bordered text-center">
+                            <div class="text-center">
+                                <thead>
+                                    <tr class="table-info">
+                                        <th class="other text-center">FirstName</th>
+                                        <th class="other text-center">Lastname</th>
+                                        <th class="others text-center">Contact Number</th>
+                                        <th class="others text-center">Municipality</th>
+                                        <th class="action text-center">Action</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody id="body">
+                                    <tr id="inform">
+
+                                    </tr>
+
+                                </tbody>
+
+                        </table>
+                </center>
+
+            </div>
+        
+    </div>
+
+            <br>
+              <br>
+                <br>
+            <div class=" card registerform">
             	 <div class="card-header">
             	<center><h3>
     <p>Passerelles numeriques IT Training Program 2020</p>
@@ -52,7 +90,6 @@
   </h3></center></div>
   <br>
   <br>
-
         <div class="container">
     <div class="form-row">
       <div class="form-group col-md-4">
@@ -360,6 +397,12 @@
     <input type="checkbox" name="" id="motherdied">Mother died
     <h5>What is your motivation for entering the Passerellesnumeriques scholarship program?(minimum of 300 words)</h5>
     <textarea name="" id="motivation" cols="30" rows="10"></textarea>
+    <center>
+    <button type="button" class="btn btn-sucess btn-outline-success" id="register" data-toggle="button"
+                        aria-pressed="false" autocomplete="off">
+                       register
+                    </button>
+                </center>
     </div>
     <p>Join us on facebook to get the updates: www.facebook.com/selection.process</p>
     </form>
